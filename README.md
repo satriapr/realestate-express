@@ -41,6 +41,11 @@ To run unit test:
 npm test
 ```
 
+Currently using cloud MongoDB for easy setup. If need to connect DB to check the data (not from the API) using MongoDB Compass:
+- Install [MongoDB Compass](https://www.mongodb.com/try/download/compass "MongoDB Compass")
+- Connect using (admin - ASjzu7V7yt5hnSov):
+`mongodb+srv://admin-trygobble:ASjzu7V7yt5hnSov@cluster0.is7bh.mongodb.net/try_gobble`
+
 To test API (via Postman, because we need pre-request script for generating auth signature):
 - Download [Postman Canary](https://www.postman.com/downloads/canary/ "Postman Canary")
 - Sign In / Create new account 
