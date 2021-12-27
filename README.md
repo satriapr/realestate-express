@@ -28,32 +28,33 @@ This is a simple Real-Estate Lead generating platform REST API. Using Express, T
 
 ### III. Run and Test
 
-To run project (npm - http://localhost:5000):
+**To run project (npm - http://localhost:5000):**
 ```bash
 npm i && npm run dev
 ```
 
-To run project (docker - http://localhost:5000):
-- Please let me know if docker is needed, I will prepare a docker image to run the project.
-
-To run unit test:
-```bash
-npm test
-```
-
-Currently using cloud MongoDB for easy setup. If need to connect DB to check the data (not from the API) using MongoDB Compass:
-- Install [MongoDB Compass](https://www.mongodb.com/try/download/compass "MongoDB Compass")
-- Connect using (admin - ASjzu7V7yt5hnSov):
-`mongodb+srv://admin-trygobble:ASjzu7V7yt5hnSov@cluster0.is7bh.mongodb.net/try_gobble`
-
-To test API (via Postman, because we need pre-request script for generating auth signature):
+**To test API (via Postman, because we need pre-request script for generating auth signature):**
 - Download [Postman Canary](https://www.postman.com/downloads/canary/ "Postman Canary")
 - Sign In / Create new account 
 - Import collection (top left)
 - Choose "Link" tab, and use this URL https://www.getpostman.com/collections/a54666cec8f7bf7c54f7
-[![](https://i.ibb.co/znFQTRY/Screen-Shot-2021-12-27-at-6-17-17-PM.png)]([url=https://ibb.co/2nSW1tQ][img]https://i.ibb.co/znFQTRY/Screen-Shot-2021-12-27-at-6-17-17-PM.png[/img][/url] [url=https://imgbb.com/]alc promo code[/url])
+[![](https://i.ibb.co/znFQTRY/Screen-Shot-2021-12-27-at-6-17-17-PM.png)](https://i.ibb.co/znFQTRY/Screen-Shot-2021-12-27-at-6-17-17-PM.png)
+
 - Import environment (top right, setting icon), choose file `trygobble.postman_environment.json` in root directory
 - Choose the `trygobble` environment, and finally... Happy testing!
+
+**(Optional) To run project (docker - http://localhost:5000):**
+- Please let me know if docker is needed, I will prepare a docker image to run the project.
+
+**(Optional) To run unit test:**
+```bash
+npm test
+```
+
+**(Optional) Currently using cloud MongoDB for easy setup. If need to connect DB to check the data directly (not from the API) using MongoDB Compass:**
+- Install [MongoDB Compass](https://www.mongodb.com/try/download/compass "MongoDB Compass")
+- Connect using (admin - ASjzu7V7yt5hnSov):
+`mongodb+srv://admin-trygobble:ASjzu7V7yt5hnSov@cluster0.is7bh.mongodb.net/try_gobble`
 
 ## What can be improved (this is not done because of time limit, also because of work load in current company)
 
