@@ -61,6 +61,7 @@ To test API (via Postman, because we need pre-request script for generating auth
 - API Documentation Should be better and interactive. Also need to specify the request and parameter type. E.g. using swagger.
 - Need to have migration script for testing data.
 - User password should be hashed.
+- Currently using cloud MongoDB for easy setup
 - Unit Test result:
 ![](https://i.ibb.co/nRWW8zq/Screen-Shot-2021-12-26-at-2-47-46-PM.png)
 - Test cases currently only Unit Test in Controller. We can enhance by adding unit test in service too, and integration test. Integration test will be integrated with DB and check if data in DB really changed after API call. End to end test also needed in Production quality app.
