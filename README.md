@@ -56,7 +56,7 @@ npm test
 - Connect using (admin - ASjzu7V7yt5hnSov):
 `mongodb+srv://admin-trygobble:ASjzu7V7yt5hnSov@cluster0.is7bh.mongodb.net/try_gobble`
 
-## What can be improved (this is not done because of time limit, also because of work load in current company)
+## What can be improved
 
 ### I. Feature
 - Need to have pagination and total data in API
